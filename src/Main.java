@@ -26,7 +26,7 @@ public class Main extends JPanel {
         file = new File("english.txt");
         try {
             scanner = new Scanner(file);
-            english = new ArrayList<>();
+            english =  new ArrayList<>();
 
             while(scanner.hasNext()){
                 english.add(scanner.next());
